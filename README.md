@@ -1,5 +1,9 @@
 # Chess Matchup Probability
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://akashspacesky-chess-matchup-app-wsyf1d.streamlit.app/)
+
+**Live Demo:** [akashspacesky-chess-matchup-app-wsyf1d.streamlit.app](https://akashspacesky-chess-matchup-app-wsyf1d.streamlit.app/)
+
 Interactive Streamlit app that estimates the win probability between two Lichess grandmasters based on how they perform against shared opponents, head-to-head history, and recent form. Enter any two GM usernames; the app fetches their latest rated games directly from Lichess, engineers matchup features, and trains a lightweight logistic model on the fly.
 
 ## Features
