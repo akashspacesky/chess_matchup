@@ -4,7 +4,9 @@ Interactive Streamlit app that estimates the win probability between two Lichess
 
 ## Features
 - Live data fetch from the public Lichess API (no API key required).
+- Built-in GM search: type a prefix, hit “Search GM suggestions,” and pick from verified GM handles fetched from Lichess autocomplete (with live title validation).
 - Common-opponent, head-to-head, and recency features to capture “relative wins”.
+- Rich matchup dashboard: shared opponents, opponent-rating buckets (with charts), head-to-head log, and recent-form streaks.
 - Clear cached downloads button for cases when you want to refresh or test another user.
 - Optional CLI utilities for downloading reusable datasets and training offline.
 
